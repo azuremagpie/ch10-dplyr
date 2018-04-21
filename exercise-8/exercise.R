@@ -5,7 +5,7 @@
 
 # Read in the data (from `data/pupulitzer-circulation-data.csv`). Remember to 
 # not treat strings as factors!
-
+data <- read.csv("data/pupulitzer-circulation-data.csv", stringsAsFactors = F )
 
 # View in the data set. Start to understand what the data set contains
 
